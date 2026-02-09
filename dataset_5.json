@@ -1,0 +1,602 @@
+[
+    {
+        "image_filename": "image_0001.png",
+        "arxiv_number": "arXiv:2504.06775",
+        "page_number": 4,
+        "figure_number": "2",
+        "quantum_gates": [
+            "RX",
+            "RY",
+            "RZ",
+            "S",
+            "T"
+        ],
+        "quantum_problem": "VQE",
+        "descriptions": [
+            "4 |q0⟩ |q1⟩ |q2⟩ |q3⟩ |a0⟩ RX(θ) |a1⟩ RX(θ) (a) Logical RX rotations |a0⟩ |a1⟩ |a2⟩ RZ(θ) |a3⟩ RZ(θ) (b) Logical RZ rotations |q0⟩ |q1⟩ |q2⟩ |q3⟩ |a0⟩ |a1⟩ |a2⟩ |a3⟩ |a4⟩ RY (θ) |a5⟩ RY (θ) (c) Logical RY rotations FIG. 2. Logical rotation gates implemented with the [[4,2,2]] encoding: (a) logical RX(θ), (b) logical RZ(θ) and (c) logical RY (θ) rotations. In each subfigure, the physical qubits are denoted by |qi⟩and the ancilla qubits are denoted by |ai⟩. cal vibrations. These types of noise are usually modelled by their impact on qubits; namely, thermal relaxation, where energy in the qubits dissipates as a result of in- teraction with the thermal environment, and dephasing, where the relative phase between quantum states starts randomising due to external EM fields, slow environmen- tal changes or noise in t"
+        ],
+        "text_positions": [
+            [
+                15210,
+                16031
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0002.png",
+        "arxiv_number": "arXiv:2508.00533",
+        "page_number": 4,
+        "figure_number": "2",
+        "quantum_gates": [
+            "H"
+        ],
+        "quantum_problem": "Variational / Ansatz Circuit",
+        "descriptions": [
+            "4 ⌈log2(L)⌉ n 0 · · · 0 0 · · · 0 . . . 0 · · · 0 . . . |0 · · · 0⟩ℓ U \u0010 ˆH −a1 \u0011 U \u0010 ˆH −a2 \u0011 U \u0010 ˆH −am \u0011 |ψ⟩ f wall-Ch m ( ˆH)|ψ⟩ m LCU+Postselection boxes ⌈log(L)⌉ n . . . 0 . . . 0 · · · 0 . . . |0⟩ R(θ0, ϕ0, λ) R(θ1, ϕ1, 0) R(θm, ϕm, 0) |0 · · · 0⟩ℓ U \u0010 e H α \u0011 U \u0010 e H α \u0011 |ψ⟩ Px( ˆH/α)|ψ⟩ FIG. 2. Encoding circuits for wall-Chebyshev projector of order m. Top: Product of LCUs corresponding to each term in Eq. 34. Bottom: GQSVT implementation following Ref. [29]. Px can be either P1 or P2 as defined in Sec. IV, depending on the phases acting on the first ancilla qubit. f ≥ 1 1 + 1 c0 g(E1) g(E0) . (23) g(Ei) g(E0) can be approximated as g(Ei) g(E0) ≈|1 + (E1 −E0)g′(E0)| ≡|1 −∆γ| ≈exp(−∆γ), (24) where γ = −g′(E0) is called the convergence factor of g[26]. For the wall-Chebyshev projector, we derive γ in Appendix D and find it to be γ = 2m(m + 1) 3R . (25) Therefore ϵ = 1 −f ≤1 − 1 1 + e"
+        ],
+        "text_positions": [
+            [
+                11640,
+                12543
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0003.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 7,
+        "figure_number": "5",
+        "quantum_gates": [
+            "S",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "7 U×,p U×,q U×,r U×, s U×,t | . . . . . |p0⟩ |p0⟩ |p1⟩ |p1⟩ |q0⟩ |q0⟩ |q1⟩ |q1⟩ |r0⟩ |r0⟩ |r1⟩ |r1⟩ |s1⟩ |s⟩ |t1⟩ |t⟩ |p′ 0⟩ χ χ† χ χ† χ† |p′′ 0⟩ |p′ 1⟩ |p′′ 1⟩ |q′ 0⟩ χ χ† |q′′ 0⟩ |q′ 1⟩ |q′′ 1⟩ |r′ 0⟩ χ χ† |r′′ 0⟩ |r′ 1⟩ |r′′ 1⟩ |s′⟩ |s′′⟩ |t′⟩ |t′′⟩ |0⟩a |0⟩a |0⟩a |0⟩a FIG. 5. Qubit implementation of U× using the permutation gate χ and its inverse (both shaded orange) using 2 ancillae and has a cost of 308 T-gates. U×,p U×,q U×,r U×,s U×,t |p1⟩3 |p1⟩3 |q1⟩3 |q1⟩3 |r1⟩3 |r1⟩3 |s1⟩2 |s1⟩2 |t1⟩2 |t1⟩2 |p2⟩3 χ† χ X1,2 X0,1 |p′ 2⟩3 |q2⟩3 X1,2 X1,2 χ |q′ 2⟩3 |r2⟩3 X1,2 χ |r′ 2⟩3 |s2⟩2 |s′ 2⟩2 |t2⟩2 |t′ 2⟩2 FIG. 6. Qutrit+Qubit implementation of U× using the per- mutation gate χ = X(1,2)X(0,1) and its inverse (both shaded orange). the irreps of Sec. II. The structure of UF is ordered as follows. The columns index |g⟩from |0⟩to |256⟩according to Eq. (1). We then index the"
+        ],
+        "text_positions": [
+            [
+                25391,
+                26270
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0004.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 6,
+        "figure_number": "3",
+        "quantum_gates": [
+            "CNOT",
+            "RZ",
+            "S",
+            "T"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "6 . |p0⟩ |p′ 0⟩ |p1⟩ |p′ 1⟩ |q0⟩ |q′ 0⟩ |q1⟩ |q′ 1⟩ |r0⟩ |r′ 0⟩ |r1⟩ |r′ 1⟩ |s⟩ |s′⟩ |t⟩ |t′⟩ |0⟩a |0⟩a |0⟩a |0⟩a |0⟩a |0⟩a |0⟩a |0⟩a FIG. 3. T-gate optimized version of U−1 for Σ(36 × 3). The letter indicates the generator and subscript indicates the qubit in the generator register. This implementation requires 119 T-gates and 4 ancilla. . |p⟩3 X1,2 SUM |p′⟩3 |q⟩3 X1,2 X1,2 |q′⟩3 |r⟩3 X1,2 X1,2 X1,2 |r′⟩3 |s⟩2 |s′⟩2 |t⟩2 |t′⟩2 FIG. 4. U−1, for Σ(36 × 3) using qutrit-qubit encoding. Re Tr(g) 3 −3 2 −1 −1 2 0 1 1 2 v0 0 1 0 1 0 0 1 v1 0 0 1 0 1 0 1 v2 0 0 1 1 0 1 1 TABLE III. Map (p, q, r, s, t) 7→(v0, v1, v2) via ReTr(g). CNOT gates and 111 Rz gates. Additional methods are also found in Ref. [117]. A second method for deriving thi"
+        ],
+        "text_positions": [
+            [
+                22515,
+                23255
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0005.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 7,
+        "figure_number": "5",
+        "quantum_gates": [
+            "S",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "VQE",
+        "descriptions": [
+            "7 U×,p U×,q U×,r U×, s U×,t | . . . . . |p0⟩ |p0⟩ |p1⟩ |p1⟩ |q0⟩ |q0⟩ |q1⟩ |q1⟩ |r0⟩ |r0⟩ |r1⟩ |r1⟩ |s1⟩ |s⟩ |t1⟩ |t⟩ |p′ 0⟩ χ χ† χ χ† χ† |p′′ 0⟩ |p′ 1⟩ |p′′ 1⟩ |q′ 0⟩ χ χ† |q′′ 0⟩ |q′ 1⟩ |q′′ 1⟩ |r′ 0⟩ χ χ† |r′′ 0⟩ |r′ 1⟩ |r′′ 1⟩ |s′⟩ |s′′⟩ |t′⟩ |t′′⟩ |0⟩a |0⟩a |0⟩a |0⟩a FIG. 5. Qubit implementation of U× using the permutation gate χ and its inverse (both shaded orange) using 2 ancillae and has a cost of 308 T-gates. U×,p U×,q U×,r U×,s U×,t |p1⟩3 |p1⟩3 |q1⟩3 |q1⟩3 |r1⟩3 |r1⟩3 |s1⟩2 |s1⟩2 |t1⟩2 |t1⟩2 |p2⟩3 χ† χ X1,2 X0,1 |p′ 2⟩3 |q2⟩3 X1,2 X1,2 χ |q′ 2⟩3 |r2⟩3 X1,2 χ |r′ 2⟩3 |s2⟩2 |s′ 2⟩2 |t2⟩2 |t′ 2⟩2 FIG. 6. Qutrit+Qubit implementation of U× using the per- mutation gate χ = X(1,2)X(0,1) and its inverse (both shaded orange). the irreps of Sec. II. The structure of UF is ordered as follows. The columns index |g⟩from |0⟩to |256⟩according to Eq. (1). We then index the"
+        ],
+        "text_positions": [
+            [
+                25391,
+                26270
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0006.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 8,
+        "figure_number": "9",
+        "quantum_gates": [
+            "CNOT",
+            "S",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "8 |p⟩3 2 2 2 2 2 1 1 1 1 1 1 1 1 |p⟩3 |q⟩3 0 1 2 2 1 0 0 1 1 2 2 0 |q⟩3 |r⟩3 2 2 1 1 2 1 2 0 2 0 1 0 |r⟩3 |s⟩2 |s⟩2 |t⟩2 |t⟩2 |0⟩2 |v0⟩2 |0⟩2 |v1⟩2 |0⟩2 |v2⟩2 FIG. 9. Quantum Circuit of the map (p, q, r, s, t) 7→(v0, v1, v2) from the group to the seven real trace classes ReTr(g) = {3, −1.5, 0, ±1, ±0.5} for qutrit+qubit. In analogy to the closed and open circle notation for control qubits, the black and white qutrit controls represent controlled-on or controlled- on-others e.g. a white 1 is a control qutrit which applies a gate if in the state |0⟩or |2⟩. Basic Gate U−1 U× UT r UF Rα 0 0 7 92,568 Rα b,c 3 0 0 35,310 CNOT 1 2 9 16,656 C2NOT 0 1 2 0 C3NOT 0 0 0 0 C4NOT 0 0 0 0 C2Xb,c 2 3 0 67,260 C3Xb,c 12 20 1 8,988 C3C2Xb,c 8 12 13 0 C3C3Xb,c 4 36 45 0 TAB"
+        ],
+        "text_positions": [
+            [
+                27935,
+                28700
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0007.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 10,
+        "figure_number": "10",
+        "quantum_gates": [
+            "S",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "10 |p0⟩ |p′ 0⟩ |p1⟩ |p′ 1⟩ |q0⟩ |q′ 0⟩ |q1⟩ |q′ 1⟩ |r0⟩ |r′ 0⟩ |r1⟩ |r′ 1⟩ |s⟩ X X |s′⟩ |t⟩ X X |t′⟩ FIG. 10. U−1 for Σ(108) which requires 420-T gates. p′ =2p ⊕3 qr(1 −t) =2(p0 ⊕3 2p1) ⊕3 (q0 ⊕3 2q1)(r0 ⊕3 2r1)(1 −t) =2(p0 ⊕3 2p1) ⊕3 (1 −t) \u0000q0r0 ⊕3 2q1r0 ⊕3 2r1q0 ⊕3 4q1r1 \u0001 . In order to turn this trinary arithmetic into binary arith- metic we need the following transformation axiom: p′ =p ⊕3 1, p′ 0 =p0 ⊕2 p1 ⊕2 1, p′ 1 =p0, (A1) and p′ =p ⊕3 2, p′ 0 =p1, p′ 1 =p1 ⊕2 p0 ⊕2 1. (A2) Using this set of transformation rules we find p′ 0 =p1 ⊕2 (1 ⊕2 t) \u0000(1 ⊕2 p0)(q0r0 ⊕2 q1r1) ⊕2 p0(q1r0 ⊕2 r1q0) \u0001 , p′ 1 =p0 ⊕2 (1 ⊕2 t) \u0000(1 ⊕2 p1)(q1r0 ⊕2 q0r1) ⊕2 p1(q0r0 ⊕2 q1r1) \u0001 , q′ 0 =q1(1 ⊕2 s)(1 ⊕2 t) ⊕2 q0s("
+        ],
+        "text_positions": [
+            [
+                37021,
+                37729
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0008.png",
+        "arxiv_number": "arXiv:2405.05973",
+        "page_number": 11,
+        "figure_number": "11",
+        "quantum_gates": [
+            "S",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "11 . . . . |p0⟩ |p′ 0⟩ |p1⟩ |p′ 1⟩ |q0⟩ |q′ 0⟩ |q1⟩ |q′ 1⟩ |r0⟩ |r′ 0⟩ |r1⟩ |r′ 1⟩ |s⟩ X X |s′⟩ |t⟩ X X |t′⟩ |0⟩a |0a⟩ |0⟩a |0a⟩ FIG. 11. A more T-gate optimized version of U−1 for Σ(108) which requires requires 203-T gates and 2 ancilla. Propagating through V t1 gives the following transforma- tions to the elements p2, q2, r2, s2, and t2: p2 →p′ 2 = p2 ⊕3 2r2q2t1 q2 →q′ 2 = q2(1 −t1) ⊕3 2r2t1 r2 →r′ 2 = q2t1 ⊕3 r2(1 −t1) s2 →s′ 2 = s2 ⊕2 t1t2 t2 →t′ 2 = t2 ⊕2 t1. (B2) All together this gives the circuit operation, U×,t in Fig. 6. The next step involves moving the V 2s1 operation across such that gh =(ωp1Cq1Er1)V 2s1ωp′ 2Cq′ 2Er′ 2V 2s′ 2+t′ 2 =(ωp1Cq1Er1)ωp′′ 2 Cq′′ 2 Er′′ 2 V 2s′′ 2 +t′′ 2 . (B3) In this case, the operators"
+        ],
+        "text_positions": [
+            [
+                39799,
+                40534
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0009.png",
+        "arxiv_number": "arXiv:2501.10228",
+        "page_number": 6,
+        "figure_number": "2",
+        "quantum_gates": [
+            "S",
+            "SWAP"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "n n n n |u⟩ u > v Input u |u⟩ |v⟩ = 0 −u /2 |v⟩ |r⟩ Input r ×2 mod p |r⟩ |s⟩ +r |s⟩ |b = 0⟩ |0⟩ |a = 0⟩ |0⟩ |mi = 0⟩ |mi⟩ |f⟩ |f⟩ 1 2 3 4 5 Figure 2: Quantum circuit for the Montgomery-Kaliski round function, which corresponds to one iteration of the loop, taken from [7]. Gates controlled by a register are to be understood as to be controlled by the parity of the integer encoded in the register, so the state of the least significant bit. Gates controlled by white dots are triggered when the control qubit is in the ’0’ state. Algorithm 1: Kaliski’s algorithm with swaps [7, 11] u ←p; r ←0; s ←1; for i ←0 to 2 ∗n do if v = 0 then r ←2 ∗r; end swap ←False; if (u is even and v is odd) or (u is odd and v is odd and u>v) then u ←→v; r ←→s; swap"
+        ],
+        "text_positions": [
+            [
+                16785,
+                17532
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0010.png",
+        "arxiv_number": "arXiv:2405.10264",
+        "page_number": 3,
+        "figure_number": "2",
+        "quantum_gates": [
+            "RX",
+            "RY",
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "3 Figure 2. Quantum circuits for symplectic unitaries. Example of the basic building block for the implementation of symplectic unitary transformations on a quantum com- puter. The notation RHl stands for eiθlHl, with independent θl angles in each gate. As stated in Theorem 1, the Lie clo- sure of the generators appearing in this circuit, which are not translationally invariant, produces sp(d/2). This implies that any symplectic unitary from the SP(d/2) group can be imple- mented by a quantum circuit architecture consisting of blocks of this form. for the basis elements of the standard representation of"
+        ],
+        "text_positions": [
+            [
+                9581,
+                10191
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0011.png",
+        "arxiv_number": "arXiv:2405.10264",
+        "page_number": 5,
+        "figure_number": "4",
+        "quantum_gates": [
+            "SWAP",
+            "T",
+            "X"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "5 Figure 4. Elements of the Brauer algebra Bt(−d). Here we present all the elements of Bt(−d) for t = 1 and t = 2, as well as some elements for t = 3. In all cases we introduce their tensor representation visualization, their decomposition into disjoint pairs, and when convenient, their representation Fd. We use the convention whereby we first enumerate all the items on the left-hand side from top to bottom and then the items on the right-hand side (also from top to bottom). in practice one often encounters circuits that are not fully Haar random but that are sufficiently so to reproduce the first t mom"
+        ],
+        "text_positions": [
+            [
+                18448,
+                19058
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0012.png",
+        "arxiv_number": "arXiv:2506.10539",
+        "page_number": 6,
+        "figure_number": "1",
+        "quantum_gates": [],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "PREPRINT 6 Figure 1. Visual representation of the research questions. The top path diagram illustrates RQ1, examining the direct relationships between the variables. The bottom path diagram shows the two mediation models: RQ2 examines perceived comprehension as a mediator, and RQ3 examines actual comprehension as a mediator. 3 Methodology Following our research questions, we performed an online experiment. The study information, design plan, sampling plan, variables and analysis plan were pre-registered on the Open Science Framework before the data collection started (https://tinyurl.com/mr3hp4w9). The Ethics Re"
+        ],
+        "text_positions": [
+            [
+                15650,
+                16269
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0013.png",
+        "arxiv_number": "arXiv:2503.21894",
+        "page_number": 5,
+        "figure_number": "1",
+        "quantum_gates": [
+            "H",
+            "Z"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "|M2⟩ H(Σ) Z[M] ⟨M1| Figure 1: Closed three-manifolds M can be Heegaard split along a two-dimensional sub- manifold Σ as M = M1 ⊔Σ M2. The path integral Z[M] computes the inner product of states |M1⟩, |M2⟩, each of which lives in the Hilbert space H(Σ). Let M be a closed three-manifold, and let Σ be some closed two-dimensional subman- ifold Σ ⊂M. If we split M = M1 ⊔Σ M2 along Σ, we can think of M as the gluing of two manifolds-with-boundary along Σ.5 The Chern-Simons path integral can be thought of as computing an overlap between states Z[M] = ⟨M1|M2⟩Σ . (4) The states |M1⟩, |M2⟩are defined on a Hilbert space H(Σ) associ"
+        ],
+        "text_positions": [
+            [
+                10141,
+                10769
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0014.png",
+        "arxiv_number": "arXiv:2501.18188",
+        "page_number": 2,
+        "figure_number": "1",
+        "quantum_gates": [
+            "T"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "2 Fig. 1: Schematic diagram showing the workings of the proposed QNN-QRL algorithm. forms traditional methods like deep Q-network (DQN), first- fit (FF), and random-fit (RF) across national science founda- tion network (NSFNET) and US backbone network (UBN24) [20]. This framework combines QKD, Multi-Objective Opti- mization (MOO), and RL to ensure safe and efficient data transmission in Smart Grid Advanced Metering Infrastructure (SGAMI) [21]. This demonstrates how RL optimizes resource allocation for efficient key distribution in QKD networks [22]. B. Contribution Fig. 1 represents the schematic of t"
+        ],
+        "text_positions": [
+            [
+                5505,
+                6113
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0015.png",
+        "arxiv_number": "arXiv:2510.15340",
+        "page_number": 22,
+        "figure_number": "1",
+        "quantum_gates": [
+            "T",
+            "X",
+            "Y",
+            "Z"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "4 Measurement Measurement Measurement NN NN NN Construction Construction Construction GRU GRU GRU GRU FIG. 1: The proposed graybox model. The architecture consists of blackbox and whitebox structures. The blackbox consists of GRUs and neural networks, which outputs the matrix parameters of Vσx(T), Vσy(T), and Vσz(T). The ﬁrst whitebox layer constructs the noise operators from the outputs of the blackbox. The measurement layers compute the expectations of each Pauli operator, with target state ρT = |ψT ⟩⟨ψT |. The parameters ψ, ϕ, ∆, µ1 and µ2 can be mapped from ⃗Θ. In general, ﬁnding an exact analytic expression of this mapping might not be possible. Thus, we use a blackbox structure to approximatel"
+        ],
+        "text_positions": [
+            [
+                91708,
+                92416
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0016.png",
+        "arxiv_number": "arXiv:2506.20125",
+        "page_number": 19,
+        "figure_number": "14",
+        "quantum_gates": [],
+        "quantum_problem": "Quantum Simulation",
+        "descriptions": [
+            "Quantum Utility-Scale QEM for Quantum Quench 19 q0 : Trotter Steps SU(2) q1 : SU(2) ... ... ... qL−1 : SU(2) qL : ... ... ... qN−2 : qN−1 : Figure 14. The randomized measurement (RM) protocol, where the Trotter steps prepare the quantum state. Then randomized measurements on a subsystem A (system size L; the upper-subsystem as an example) are performed by applying NU product of local random unitaries ˆUa = ⊗L i=1U (2) i where each U (2) i is sampled from CUE. R´enyi entropy of a subsystem A consisting of L qubits. We apply a product of single- qubit unitary operators where each of them acts on the i-th qubit of the A subsystem, i.e., i ∈A, as ˆUa = U (2) 1 ⊗U (2) 2 ⊗... ⊗U (2) L . After that, each of the single-qubit unitary U (2) i is ind"
+        ],
+        "text_positions": [
+            [
+                42914,
+                43663
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0017.png",
+        "arxiv_number": "arXiv:2510.01455",
+        "page_number": 15,
+        "figure_number": "16",
+        "quantum_gates": [],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "illustrate the maximally entangled states in our 3 × 3 picture of ℂP3, as shown in Figures 16 and 17. For the maximally entangled states, they all lie over the line in our simplex with endpoints representing the uniform superpositions of the basis state pairs (|00>, |11>) and (|01>, |10>) and with the exception of the two endpoints, periodic coordinates lying on the schematically indicated 2-sphere above them. For the two endpoints, each point in the entire circle of periodic coordinates represents a maximally-entangled states. The maximally entangled joint states of a pair of qubits in ℂP3. Figure 16 For the separable states, they all lie above the points of a dual ruled surface in the 3-simplex and on a 2-sphere above each one formed by identifying the appropriate edges of a pair of triangles in the “cut open” 3-torus above each interior point of the simplex. As with the maximally"
+        ],
+        "text_positions": [
+            [
+                24662,
+                25557
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0018.png",
+        "arxiv_number": "arXiv:2510.01455",
+        "page_number": 17,
+        "figure_number": "18",
+        "quantum_gates": [
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "The EPR circuit. Figure 18 In our picture of the joint state space of a pair of qubits, the four maximally entangled basis states |F+>, |F - >, |Y + >, and |Y - > appear as antipodal points in the circles above the midpoint of the edge spanned by the joint basis states |00> and |11>, and that of the edge spanned by the joint basis states |10> and |01>, see Figure 19. The Bell basis in ℂP3 Figure 19 As the reader may be aware, for joint states of qubits there are two competing notations as to how a binary string is to be read. In the engineering notation the string is read from right to left, as representing numbers, an"
+        ],
+        "text_positions": [
+            [
+                27064,
+                27690
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0019.png",
+        "arxiv_number": "arXiv:2510.01455",
+        "page_number": 17,
+        "figure_number": "19",
+        "quantum_gates": [
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "The EPR circuit. Figure 18 In our picture of the joint state space of a pair of qubits, the four maximally entangled basis states |F+>, |F - >, |Y + >, and |Y - > appear as antipodal points in the circles above the midpoint of the edge spanned by the joint basis states |00> and |11>, and that of the edge spanned by the joint basis states |10> and |01>, see Figure 19. The Bell basis in ℂP3 Figure 19 As the reader may be aware, for joint states of qubits there are two competing notations as to how a binary string is to be read. In the engineering notation the string is read from right to left, as representing numbers, and the mathematics notation where the string is read from left to right, as in English we do with words. The unitary matrix equation that the EPR circuit realizes is given in mathematics notation in Figure 20, where the global phase 1/√2 is suppressed. Unitary transformation realized by the EPR circuit. Figure 20"
+        ],
+        "text_positions": [
+            [
+                27064,
+                28003
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0020.png",
+        "arxiv_number": "arXiv:2412.01889",
+        "page_number": 3,
+        "figure_number": "1",
+        "quantum_gates": [
+            "X",
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "(a) The approximate sample and query model. (b) The power of the approximate sample and query model. Figure 1: The approximate sample and query (ASQ) access model restricts access to a vector to three rules (Fig. 1a). These can be satisfied by quantum or classical agents in the right conditions. By developing algorithms that operate over this abstraction, their runtime can be described in terms of the time necessary to carry out each access operation. If a classical agent can satisfy each operation fast enough, a dequantization result follows. In this paper, we establish some of the power of ASQ (Fig. 1b): we show that an agent can compose ASQ into linear combinations, and that they can use ASQ acces"
+        ],
+        "text_positions": [
+            [
+                8492,
+                9201
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0021.png",
+        "arxiv_number": "arXiv:2505.15413",
+        "page_number": 5,
+        "figure_number": "1",
+        "quantum_gates": [],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "at a Dicke state unitary Un k admits a divide-and-conquer approach via a recursive decomposition into one divide unitary Dividen,⌊n/2⌋ k and two smaller-scale Dicke state unitaries U⌊n/2⌋ k and U⌈n/2⌉ k , i.e., Un k = (U⌊n/2⌋ k ⊗U⌈n/2⌉ k )Dividen,⌊n/2⌋ k (8) We can recurse on U⌊n/2⌋ k and U⌈n/2⌉ k until all the Dicke state unitaries consist of O(k) qubits. Namely, Un k can be implemented by at most ⌊log(n/k)⌋layers of divide unitaries and one layer of O(k)-qubit Dicke state unitaries, where the j-th layer consists of 2 j−1 divide unitaries. Also see an example of circuit framework for U9 2 in Fig. 1. U9 2 =⇒ U4 2 Divide9,4 2 U5 2 =⇒ Divide9,4 2 Divide4,2 2 U2 2 Divide9,4 2 Divide4,2 2 U2 2 Divide5,2 2 U2 2 U3 2 Divide9,4 2 Divide5,2 2 Figure 1: An example of circuit framework for U9 2. 3.1 Dicke state preparation with all-to-all qubit connectivity The above framework [BE22] for implementing the Un k consists of O(log(n/k)) layers of 2k-qubit divide unitaries followed by one layer of small-scale Dicke state unitaries UO(k) k . This construction yields an overall circuit depth of O(k log(n/k)). Our work achieves significant depth compression with three key ingredients: First, we observe th"
+        ],
+        "text_positions": [
+            [
+                14158,
+                15364
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0022.png",
+        "arxiv_number": "arXiv:2504.12896",
+        "page_number": 25,
+        "figure_number": "15",
+        "quantum_gates": [
+            "Y",
+            "Z"
+        ],
+        "quantum_problem": "Variational / Ansatz Circuit",
+        "descriptions": [
+            "25 |+⟩ |+⟩ 𝜃' 𝜃( 𝑛) !!, 𝑛) &! 𝑛* !!, 𝑛* &! 𝑛* &!, 𝑛* !! 𝑛) &!, 𝑛) !! 𝑛) !\", 𝑛) &\" 𝑛* !\", 𝑛* &\" 𝑛* &\", 𝑛* !\" 𝑛) &\", 𝑛) !\" 𝑍# 𝑍% second round first round FIG. 15. 0-local analysis for bipolar-ZY2 ansatz. The blue arrows denote the ZY gates of the center edge (i, j). The gray- colored numbers indicate that their values are zero by adopting the Z-right-Y -left structure. 2. 0-local analysis of the bipolar-ZY2 ansatz For the bipolar-ZY2 ansatz, according to Algorithm 1, the second round takes the reversed topological order of the first round, such that the Z-right-Y -left structure defined in Supplementary Note C is respected within each round. It results in the general structure of the 0-local circuit as illustrated in Fig. 15. In the first round, the n"
+        ],
+        "text_positions": [
+            [
+                92929,
+                93688
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0023.png",
+        "arxiv_number": "arXiv:2404.00517",
+        "page_number": 5,
+        "figure_number": "1",
+        "quantum_gates": [
+            "H",
+            "T"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "SciPost Physics Core Submission e pmII pmII, ω = Nnω −pmI −pmI ̂Uω Nn Nnω |ω⟩ g Nn ̂Us g Figure 1: The major ingredients of the protocol. Energy is expressed in the units of U0. for some mII,ω, the pulse ˆV(ω)(t) will effectuate a 2π-pulse involving the states |nω〉⊗∥g〉 and |mII,ω〉⊗∥e〉; that is, by the end of the pulse, the prefactor in front of the matching state |nω〉⊗∥g〉will change sign. The rest of the n-states will not be significantly perturbed thus propagating freely, for a period of time that is commensurate (thanks to the condition (5)) with the shortest free oscillation period, ħh/U0. Hence, by the end the pulse, two things will happen: (a) the prefactor in front of |nω〉will chang"
+        ],
+        "text_positions": [
+            [
+                8758,
+                9455
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0024.png",
+        "arxiv_number": "arXiv:2209.11207",
+        "page_number": 14,
+        "figure_number": "4",
+        "quantum_gates": [
+            "X",
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "|+⟩ Ud ⟨X⟩+ i ⟨Y ⟩ |0⟩ ⟨X⟩+ i ⟨Y ⟩ Figure 4: Phase-method style of Floquet-characterization circuit. One of the qubits (in the diagram above, the top qubit) is prepared in the superposition state |+⟩, and the other qubit is left in the ground state. After repeating the unitary we’re characterizing a number of times, we measure either the expectation value of X or Y on each qubit to give us complex numbers from which the matrix elements in the single-excitation subspace can be inferred. Ordering the basis as B := {|00⟩, |01⟩, |10⟩, |11⟩} where the qubits are ordered as |a0a1⟩:= |a0⟩A0 |a1⟩A1, the unitary matrix representation of the Fsi"
+        ],
+        "text_positions": [
+            [
+                38858,
+                39501
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0025.png",
+        "arxiv_number": "arXiv:2506.23806",
+        "page_number": 10,
+        "figure_number": "2",
+        "quantum_gates": [
+            "H",
+            "T",
+            "X",
+            "Y"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "Pr {|ˆµ(M/K, K) −E[Y ]| ≥ϵ} ≤2e−K/2 (C2) for every ϵ > 0. We choose the parameters K and M/K as Eq. (22) and Eq. (23) such that this general statement ensures: Pr {|ˆxj(ρl, M/K, K) −Tr[E(ρl)Xj]| ≥ϵ} ≤ δ HG (C3) for all 1 ≤j ≤H, 1 ≤l ≤G. Apply a union bound over all HG failure probabilities to deduce: Pr {|ˆxj(ρl, M/K, K) −Tr[E(ρl)Xj]| ≤ϵ} ≥1 −δ (C4) for all 1 ≤j ≤H, 1 ≤l ≤G. This completes the proof of Theorem 1. Appendix D: The proof of Theorem 2 We provide a proof of Theorem 2 in this section. Proof. Fix an observable d·ρT l ⊗Xj. Since any projection measurement belongs to the POVM set (see Fig. 2), we have: arg min P tot ∥d · ρT l ⊗Xj∥2 P tot ≥arg min Etot ∥d · ρT l ⊗Xj∥2 Etot. (D1) Thus, we obtain: κ2 P tot∗ = max \b ∥d · ρT l ⊗Xj∥2 P tot∗: d · ρT l ⊗Xj ∈X ≥max \b ∥d · ρT l ⊗Xj∥2 Etot∗: d · ρT l ⊗Xj ∈X = κ2 Etot∗. (D2) Appendix E: Transforming measurements with non-uniform traces into those with uniform traces Specifically, consider a measurement E where the traces for each effect are given by αk = Tr(Ek). These trace values can be approximated by rational numbers. By selecting a sufficiently small value ϵ, we can ensure that αk ϵ = Nk are all integers for each effect. We can then divi"
+        ],
+        "text_positions": [
+            [
+                38089,
+                39295
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0026.png",
+        "arxiv_number": "arXiv:2506.16964",
+        "page_number": 12,
+        "figure_number": "1",
+        "quantum_gates": [
+            "CNOT"
+        ],
+        "quantum_problem": "Quantum Simulation",
+        "descriptions": [
+            "� �0 �1 0 1 2 3 0 1 2 3 0 1 2 3 (a) CNOT(1, 1, 0) with x1[2 : 4] = 00. � �0 �1 0 1 2 3 0 1 2 3 0 1 2 3 (b) Tof0 with x0 = 0110. Figure 1: Diagrams for CNOT(i, j, ℓ) and Tofi with k = 4, n = 4, r = 2. References [1] Andrew M Childs, Dmitri Maslov, Yunseong Nam, Neil J Ross, and Yuan Su. Toward the first quantum simulation with quantum speedup. Proceedings of the National Academy of Sciences, 115(38):9456–9461, 2018. [2] Guang Hao Low and Isaac L Chuang. Optimal hamiltonian simulation by quantum signal processing. Physical Review Letters, 118(1):010501, 2017. [3] Guang Hao Low and Isaac L Chuang. Hamiltonian simulation by qubitization. Quantum, 3:163, 2019. [4] Dominic W Berry, Andrew M Childs, Richard Cleve, Robin Kothari, and"
+        ],
+        "text_positions": [
+            [
+                30591,
+                31326
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0027.png",
+        "arxiv_number": "arXiv:2407.07202",
+        "page_number": 12,
+        "figure_number": "9",
+        "quantum_gates": [
+            "Z"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "- 12 Fig. 9. The TSP phase separator UP (1) for a symmetric graph with three cities and d(u, v) = 1. The quantum ZZ-gate RZZ(θ) =df exp(−i θ 2 Z ⊗Z) is a useful tool for implementation taken from the Qiskit circuit library. In the asymmetric TSP with three cities, there are two distinct feasible solutions in the asymmetric case (making this the first interesting case). Because the number of qubits needed for this approach scales is n2 and the number of gates is n3, it is uneconomical to print larger examples. However, bigger circuits are constructed in an analogous way that these smaller examples should"
+        ],
+        "text_positions": [
+            [
+                57784,
+                58394
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0028.png",
+        "arxiv_number": "arXiv:2405.09628",
+        "page_number": 28,
+        "figure_number": "7",
+        "quantum_gates": [
+            "S"
+        ],
+        "quantum_problem": "unspecified",
+        "descriptions": [
+            "⋅⋅⋅ ⋅⋅ b1 a0 m0 ⋅ ⋅ ⋅⋅ m1 m2 m3 m4 a0 a0 a0 a1 a1 b1 b1 b1 b2 b2 Figure 7: Pictorial illustration of the evaluation of moments from the Lanczos coefficients. To evaluate any mn, they are represented as dots starting from m0 and building the triangle. Each horizontal row represents fixed an, which the bn forwards one step as one climbs up to one step top. Then, discrete paths are to be tracked (by multiplying each step’s contribution) and summed up that leads from m0 from mn. For example, this picture evaluates the moment m4. We start from m0, track all discrete paths that lead to m4, and sum up all the paths. Here, the red arrow shows one such path, which evaluates"
+        ],
+        "text_positions": [
+            [
+                79733,
+                80406
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0029.png",
+        "arxiv_number": "arXiv:2408.03429",
+        "page_number": 4,
+        "figure_number": "2",
+        "quantum_gates": [
+            "CNOT",
+            "X"
+        ],
+        "quantum_problem": "Quantum Simulation",
+        "descriptions": [
+            "(operators) and measure- ments. A quantum gate is a unitary matrix that applies to the state vector of the qubits. For example, the 𝑋gate is a single-qubit gate. Applying the 𝑋gate to a single-qubit state 𝛼|0⟩+ 𝛽|1⟩follows matrix multiplication: 𝑋= \u00100 1 1 0 \u0011 ⇒𝑋 \u0010𝛼 𝛽 \u0011 = \u00100 1 1 0 \u0011 \u0010𝛼 𝛽 \u0011 = \u0010𝛽 𝛼 \u0011 Thus, gate 𝑋transforms the state 𝛼|0⟩+ 𝛽|1⟩to 𝛽|0⟩+ 𝛼|1⟩. A Quantum gate applied on 𝑁qubits can always be represented by a 2𝑁× 2𝑁complex unitary matrix. For example, the two-qubit 𝐶𝑁𝑂𝑇 gate has the following matrix representation: 𝐶𝑁𝑂𝑇= ©­­ « 1 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 ª®® ¬ 𝑅𝑧(𝜃) 𝐻 𝑌 𝑞1 𝑞2 𝑞3 Fig. 2. Quantum circuit example In this paper, the quantum programs are represented in the quantum circuit diagram. Fig. 2 shows an example of a 3-qubit circuit. In the quantum circuit, each horizontal line represents a qubit. Fig 2 has three qubits: 𝑞1, 𝑞2, and 𝑞3. The square blocks and ⊕symbols on the horizontal lines represent gates applied on the qubits associated with the horizontal lines. Fig 2 has three single-qubit gates: one 𝑌gate on 𝑞1, one 𝐻gate on 𝑞3, and a 𝑅𝑧gate on 𝑞3. Besides, a 𝐶𝑁𝑂𝑇gate is applied on (𝑞2,𝑞3) between the 𝐻gate and the 𝑅𝑧 gate. 2.3 Quantum Simulation Quantum Hamiltonia"
+        ],
+        "text_positions": [
+            [
+                12876,
+                14081
+            ]
+        ]
+    },
+    {
+        "image_filename": "image_0030.png",
+        "arxiv_number": "arXiv:2408.03429",
+        "page_number": 5,
+        "figure_number": "3",
+        "quantum_gates": [
+            "CNOT",
+            "H",
+            "X",
+            "Y"
+        ],
+        "quantum_problem": "Quantum Simulation",
+        "descriptions": [
+            "MarQSim: Reconciling Determinism and Randomness in Compiler Optimization for Quantum Simulation 5 𝑞4 𝑞3 𝑞2 𝑅𝑧(𝜃) 𝑞1 𝑌 𝐻 Single qubit CNOT Rotation 𝑌 𝐻 Single qubit CNOT exp(iXYZI 𝜽/2) Fig. 3. Decomposition of exp(i𝑋4𝑌3𝑍2𝐼1 𝜃 2 ) From Pauli Strings to Circuit: A critical property of a Pauli string 𝑃is that for any 𝜃∈R the operator exp(i𝑃𝜃 2 ) can be decomposed into basic gates easily. We introduce the decomposition process using an example shown in Fig. 3, which illustrates the synthesis of exp(i𝑋4𝑌3𝑍2𝐼1 𝜃 2 ). First, two identical layers of single-qubit gates are added at the beginning and the end of the circuit snippet. In these two layers, the H or Y gates are applied on the qubits whose corresponding operators in the Pauli string are X (i.e., 𝑞4) or Y (i.e., 𝑞3), respectively."
+        ],
+        "text_positions": [
+            [
+                14899,
+                15689
+            ]
+        ]
+    }
+]
