@@ -61,7 +61,7 @@ A list of **quantum physics papers from arXiv (quant-ph)** is used as input.
 Example file:
 
 ```
-paper_list_5.txt
+paper_list.txt
 ```
 
 ---
@@ -135,11 +135,11 @@ The final dataset contains:
 
 | File | Description |
 |-----|-------------|
-| dataset_5.json | Structured metadata for each circuit |
-| paper_list_5.txt | List of processed papers |
-| paper_list_counts_5.csv | Dataset statistics |
-| documentation_5.pdf | Project report |
-| examid_5_tejaswiduptala.ipynb | Implementation notebook |
+| dataset.json | Structured metadata for each circuit |
+| paper_list.txt | List of processed papers |
+| paper_list_counts.csv | Dataset statistics |
+| documentation.pdf | Project report |
+| main.ipynb | Implementation notebook |
 
 ---
 
@@ -167,7 +167,7 @@ pip install pymupdf opencv-python pillow pytesseract numpy pandas
 Run the pipeline:
 
 ```
-python examid_5_tejaswiduptala.ipynb
+python main.ipynb
 ```
 
 ---
